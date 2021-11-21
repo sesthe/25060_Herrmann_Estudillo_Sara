@@ -1,0 +1,127 @@
+@charset "UTF-8";
+section{
+	margin:20px 0px;
+}
+
+.contenedor-flexible{
+	background-color:#D06423;
+	display: flex;
+}
+
+.contenedor-flexible > div,.contenedor-flexible-1 > div, .contenedor-flexible-2 > div, .contenedor-flexible-3 > div, .contenedor-flexible-4 > div, .contenedor-flexible-5 > div, .contenedor-flexible-6 > div, .contenedor-flexible-7>div{
+	width: 400px;
+	height: 50px;
+	background-color: #D09E53;
+	margin: 10px;
+	padding: 20px;
+	font-size: 32px;
+	text-align: center;
+}
+.contenedor-flexible-1 > div{
+	width: 30%;
+}
+.contenedor-flexible-1{
+	background-color: #D06423;
+	display:flex;
+	flex-direction: row;
+}
+.contenedor-flexible-3 > div{
+	width: 20%;
+}
+.contenedor-flexible-4 > div{
+	height: auto;
+}
+.contenedor-flexible-5 > div{
+	width: 20%;
+	height: auto;
+}
+.contenedor-flexible-6 > div{
+	width: 100px;
+}
+.contenedor-flexible-7 > div{
+	width: 200px;
+	height: 200px;
+}
+.contenedor-flexible-8 > li{
+	padding: 15px;
+    list-style-type: none;
+}
+.contenedor-flexible-2{
+	background-color: #D06423;
+	display:flex;
+	flex-wrap: wrap;
+}
+.contenedor-flexible-3{
+	background-color: #D06423;
+	display: flex;
+	justify-content:space-between;
+}
+.contenedor-flexible-4{
+	background-color: #D06423;
+	display: flex;
+	height: 400px;
+	align-items: stretch;
+}
+.contenedor-flexible-5{
+	background-color:#D06423; 
+	display:flex;
+	height: auto;
+	align-items: baseline;
+}
+.contenedor-flexible-6{
+	background-color:#D06423;
+	display:flex;
+	height: 800px;
+	flex-wrap:wrap;
+	align-content: space-around;
+}
+.contenedor-flexible-7{
+	background-color:#D06423;
+	display: flex;
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor-flexible-8{
+	background-color: #D09E53;
+	display: flex;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: jockey-one;
+	
+}
+header{
+	display: flex;
+	justify-content: center;
+	font-size: 160%;
+	color: #D06423;
+	font-family: jockey-one;
+	font-style: normal;
+	font-weight: 400;	
+}
+h2{
+	font-size: 130%;
+	color: #D06423;	
+	font-family: jockey-one;
+	
+}
+footer{
+	height: 100px;
+	background-color: #D09E53;
+	font-family: jockey-one;
+}
+h5{
+	text-align: center;
+	font-size: 90%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+body{
+background-color: cornsilk
+}
+nav{
+	font-size: 120%;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #215D57;
+	color: #E5ECFB;
+	font-family: abril-fatface;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+}
+h1 {
+	margin-top: 40px;
+	font-size: 49px;
+}
+img {
+	border-radius: 20px;
+	border: 5px dotted #E5ECFB;
+	-webkit-box-shadow: 8px 8px #87BEB8;
+	box-shadow: 8px 8px #87BEB8;
+}

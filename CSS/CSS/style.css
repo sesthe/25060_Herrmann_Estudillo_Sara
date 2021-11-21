@@ -1,0 +1,262 @@
+.contenedor-flexible-8{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+	background-color: #333333;
+}
+.contenedor-flexible-8>ul, li{
+	display: flex;
+	flex-wrap: wrap;
+}
+header {
+    background-color: #DAA7EC;
+    color: #FBF7FA;
+    height: 100px;
+}
+nav {
+    height: 80px;
+    background-color: #333333;
+    color: #FBF7FA;
+	font-size: 120%;
+}
+nav ul {
+    height: 40px;
+	display:flex;
+	justify-content: center;
+	
+}
+main section {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DAA7EC;
+	padding: 20px;
+	height: auto;
+	border-width: 5px;
+	border-style: outset;
+	display: block;
+	margin-bottom: 30px;
+	overflow-x: scroll;
+}
+main section h2 {
+	padding-bottom: 30px;
+	color: #FBF7FA;
+	font-weight: 400;
+	font-style: normal;
+	border-color: #FBF7FA;
+	font-family: miniver;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    height: 30px;
+}
+footer {
+    background-color: #333333;
+    color: #FBF7FA;
+    height: auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer h5 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+header h1 {
+    font-size: 48px;
+    text-align: center;
+}
+header, nav, section, footer , main{
+    margin: 0 auto;
+    width: 80%;
+}
+main {
+    background-color: #FEDDDE;
+    padding: 20px;
+    height: auto;
+}
+a:link{
+	color:#FFC2AD;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #6969C9;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:active{
+	color: #ED756E;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color: #91476A;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.picture_1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 50%;
+	margin-bottom: 20px;
+}
+video_size {
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+main section video {
+}
+.mainsectionvideo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 80%;
+}
+.img_flotante {
+	display: inline;
+	margin-left: auto;
+	margin-right: 30px;
+	overflow-x: scroll;
+	width: 50%;
+	float: right;
+}
+.picture_2 {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.parrafo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #282727;
+	font-size: 16px;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: 300;
+}
+.img_redondeado {
+	border-radius: 10px;
+	height: 21%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img_redondeado_2  {
+	border-radius: 30px 50px 200px 80px;
+	width: auto;
+	height: 30%;
+}
+.img_redondeada_3 {
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: auto;
+	height: 50%;
+}
+.picture_3 {
+	height: 15%;
+	margin-left: 5.5px;
+	display: inline-block;
+}
+.img_blur {
+	filter: blur(100%);
+}
+.img_brillo {
+	filter: brightness(50%);
+}
+.img_contraste {
+	filter: contrast(100%);
+}
+.img_escaladegrises   {
+	filter: grayscale(100%);
+}
+.img_negativo {
+	filter: invert(20%);
+}
+.img_opacidad {
+	filter: oppacity(80%);
+}
+.img_saturacion {
+	filter: saturate(80%);
+}
+.img_sepia {
+	filter: sepia(100%);
+}
+div {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DAA7EC;
+	padding: 20px;
+	height: auto;
+	border-width: 5px;
+	border-style: groove;
+	display: block;
+	margin-bottom: 30px;
+	overflow-x: scroll;
+	font-family: leckerli-one;
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	
+}
+
+input[type=text],input[type=number]{
+	background-color: #2F344E;
+	color: white;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+input[type=submit]{
+	background-color: #D46D6F;
+	width: 150px;
+	height: 30%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+select, select option{
+	background-color: #2F344E;
+	color: white;
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.parrafo_formulario,label{
+	font-size: 18px;
+	color:aliceblue;
+}
+
