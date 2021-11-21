@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Listas en html</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		dt{
+			font-weight: bold;
+			font-size: 24px;
+			color: darkblue;
+		}
+		h1{
+			font-size:48px;
+			color: dodgerblue;
+		}
+		h2{
+			font-size: 36px;
+			color: blue
+		}
+		header,nav,main,footer{
+			width: 960px;
+			/*height: 100px;*/
+			background-color: lightblue;
+			padding: 50px;
+			margin: 0 auto;
+		}
+		header{
+			text-align: center
+		}
+		nav{
+	background-color: antiquewhite;
+
+		}
+		main{
+			background-color: bisque;
+			height: auto;
+		}
+		footer{
+			background-color: cornflowerblue;
+			height: 60px;
+			text-align: center
+		}
+		section{
+			width: 760px;
+			height: auto;
+			background-color:azure;
+			margin: 20px auto;
+			padding: 20px 20px;
+		}
+		ul,ol{
+			margin:50px;
+		}
+		dl{
+			margin: 20px;
+		}
+		dt,{
+			margin: 10px
+		}
+		dd{
+			margin: 20px 50px;
+		}
+		h4{
+			color:aliceblue
+		}
+		nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    text-align: center;
+	height: 5px;
+	font-size: 120%;
+		}		
+
+a:link{
+	color: #472F0D;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #6969C9;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:active{
+	color: #ED756E;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color: #7FC715;
+	font-weight: bolder;
+	text-decoration: none;
+}
+	</style>
+</head>
+
+<body>
+<header>
+	<h1>LISTAS EN HTML</h1>
+	</header>
+<nav>
+	<ul>
+		<li><a href="mi_primera_pagina.html" target="_blank">Mi primera página</a></li>
+		<li><a href="listas.html" target="_blank">Listas</a></li>
+		<li><a href="tablas.html" target="_blank">Tablas</a></li>
+		<li><a href="imagenes.html" target="_blank">Imágenes</a></li>
+		<li><a href="enlaces.html" target="_blank">Enlaces</a></li>
+		<li><a href="Formularios.html" target="_blank">Formularios</a></li>
+		<li><a href="flexbox.html" target="_blank">Flexbox</a></li>
+		<li><a href="video.html" target="_blank">Video</a></li>
+		<li><a href="audio.html" target="_blank">Audio</a></li>
+		<li><a href="animate.html" target="_blank">Animate</a></li>
+	</ul>
+	</nav>
+<main>
+<section>
+	<h2>Lista desordenada o de viñetas</h2>
+	<ul> 
+		<li>México</li>
+		<li>España</li>
+		<li>Argentina</li>
+		<li>Guatemala</li>
+		<li>Italia</li>
+	</ul>
+	</section>
+	<section>
+		<h2>Listas ordenadas o con viñeta numerada</h2>
+		<ol>
+			<li>Grecia</li>
+			<li>Bolivia</li>
+			<li>Canadá</li>
+			<li>Australia</li>
+			<li>México</li>
+		</ol>
+	</section>
+	<section>
+		<h2>Lista Mixta</h2>
+		<ul>
+			<li>México
+				<ol>
+				<li>Puebla</li>
+				<li>Veracruz</li>
+				<li>Baja California</li>
+				<li>Oaxaca</li>
+			</ol>
+			</li>
+	<li>España
+		<ol>
+			<li>Madrid</li>
+			<li>Sevilla</li>
+			<li>Barcelona</li>
+		</ol>
+	</li>
+	<li>Italia
+		<ol>
+			<li>Florencia</li>
+			<li>Venecia</li>
+			<li>Roma</li>
+			<li>Pisa</li>
+		</ol>
+	</li>
+		</ul>
+	</section>
+	<section>
+		<h2>Lista de descripción</h2>
+		<dl>
+			<dt>Hosting</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam dignissimos dolore dolorum dicta sed quasi quidem libero. Quisquam, ipsum!
+			</dd>
+			<dt style="font-style: italic"><b>Dominio</b></dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt placeat porro eveniet inventore, autem ullam nobis, expedita vel repellat sed necessitatibus, beatae quod alias!
+			</dd>
+			<dt style="font-weight:normal">Sitio web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, non quisquam amet est autem architecto voluptatibus, consequuntur quam, vitae fugit ipsam unde vero velit eligendi, tempore et nulla facilis expedita!
+			</dd>
+			<dt>Sistema web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ea aspernatur tenetur debitis nobis eius mollitia, pariatur adipisci rem totam!
+			</dd>
+			<dt>Lorem ipsum dolor.</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur fugit obcaecati vitae soluta molestiae ut, inventore accusantium doloremque laudantium facilis! Quia, accusamus labore. Cumque sapiente cum ipsam repellat perferendis.
+			</dd>
+		</dl>
+	</section>
+	<section>
+		<h2>Lista con viñeta de imagen</h2>
+		<ul style="list-style-image: url('../girasol.png')">
+			<li>María Gómez</li>
+			<li>Juan Hernández</li>
+			<li>Guadalupe Guerrero</li>
+			<li>Daniel Osorio</li>
+			<li>Mónica Pérez</li>
+		</ul>
+	</section>
+	</main>
+	<footer>
+		<h4>Elaborado por Sara Herrmann Estudillo</h4>
+	</footer>
+</body>
+</html>
